@@ -571,6 +571,9 @@ a {
   .blog-footer-image {
     margin-bottom: 20px;
   }
+  .product-name {
+    text-align: center;
+  }
   .blog-post-details {
     width: 100%;
     -webkit-box-align: stretch;
@@ -597,3 +600,10 @@ a {
     margin-bottom: 20px;
   }
 }
+
+@media (max-width: 479px) {
+  .product-name {
+    text-align: left;
+  }
+}
+
